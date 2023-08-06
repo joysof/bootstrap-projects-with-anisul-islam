@@ -1,0 +1,188 @@
+
+
+
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width:80px;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============= header style start hear ===========*/
+nav{
+    background-color: rgb(0,0,0,0.3);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+header{
+    background-image: url(img/header.jpg);
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    align-items: ;
+}
+.nav-link{
+    border-radius: 10px;
+    transition: .4s;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    background-color: #2980b9;
+    color:white;
+    transform: scale(1.1);
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgb(7, 101, 189,0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+/*============= header style end hear ===========*/
+
+/*============= features style start hear ================ */
+
+#features{
+    background-color: #e8ded2;
+    padding: 5% 10%;
+}
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    margin: 20px 20px;
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+}
+/*============= features  style end hear ===========*/
+
+/*============= about  style star hear ===========*/
+
+#about{
+    background-color: #e8ded2;
+}
+#about p{
+    font-size: 0.9rem;
+    font-weight: light;
+    margin-bottom: 0;
+}
+#about link{
+    font-size: 0.9rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.perosonal{
+	margin-left:10%;
+}
+#Achievements{
+	width:30%;
+}
+#Achievements span{
+	font-weight:700 !important;
+}
+
+.skill{
+    margin-left: 35%;
+
+}
+.skill-icon{
+    margin-left: 26%;
+    
+}
+
+/*============= about style end hear ===========*/
+
+/*=============================== card style star hear ======================================*/
+.card{
+	transition:0.4s;
+	border:1px solid #ff02c0 !important;
+}
+.card:hover{
+	transform:scale(1.1);
+	box-shadow:2px 6px 5px black;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+
+/*=============================== card style end hear ======================================*/
+
+/*=============================== feedback style stsr hear ======================================*/
+#feedback{
+	background:rgb(133,155,180);
+	
+}
+.feedback-img{
+	width:200px !important;
+	height:250px !important;
+	margin:auto;
+}
+.carousel-item p{
+	padding:0% 13%;
+}
+/*=============================== feedback style end hear ======================================*/
+
+/*=============================== contact style star hear ======================================*/
+
+#contact{
+	background:#5eaaa8;
+	padding:2% 10%;
+}
+
+
+
+
+
+
+
+/*=============================== contact style end hear ======================================*/
+
+/*=============================== footer style star hear ======================================*/
+footer{
+	background:#056676;
+}
+footer a{
+	color:white;
+	text-decoration:none;
+	margin:0 3%;
+}
+/*=============================== footer style end hear ======================================*/
